@@ -1,0 +1,30 @@
+
+3. Printing statistics.
+
+=== adder ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       15 wires
+       21 wire bits
+        5 public wires
+       11 public wire bits
+        4 ports
+        8 port bits
+       13 cells
+        3   $_ANDNOT_
+        1   $_AND_
+        1   $_NAND_
+        1   $_NOR_
+        3   $_OR_
+        3   $_XNOR_
+        1   $_XOR_
+
+4. Executing LTP pass (find longest path).
+
+Longest topological path in adder (length=4):
+    0: \b [1]
+    1: $abc$117$new_n10 (via $abc$117$auto$blifparse.cc:397:parse_blif$119)
+    2: $abc$117$new_n15 (via $abc$117$auto$blifparse.cc:397:parse_blif$124)
+    3: $abc$117$new_n16 (via $abc$117$auto$blifparse.cc:397:parse_blif$125)
+    4: \out [2] (via $abc$117$auto$blifparse.cc:397:parse_blif$126)

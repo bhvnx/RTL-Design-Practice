@@ -1,0 +1,21 @@
+
+4. Printing statistics.
+
+=== gray_code_generator ===
+
+        +----------Local Count, excluding submodules.
+        | 
+        2 wires
+       32 wire bits
+        2 public wires
+       32 public wire bits
+        2 ports
+       32 port bits
+       15 cells
+       15   $_XOR_
+
+5. Executing LTP pass (find longest path).
+
+Longest topological path in gray_code_generator (length=1):
+    0: \binary [15]
+    1: \gray [14] (via $abc$98$auto$blifparse.cc:397:parse_blif$113)
